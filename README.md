@@ -100,3 +100,53 @@ This document describes JavaScript functions that generate various star patterns
 * 
 ```
 >Time complexity = O(n)
+
+### Pattern 11
+>For n=4
+```
+1
+01
+101
+0101
+```
+>Time complexity = O(n)
+
+### Pattern 12
+>For n=4
+```
+1      1
+12    21
+123  321
+12344321
+```
+>Time complexity = O(n)
+
+### Pattern 13
+>For n=4
+```
+1 
+2 3 
+4 5 6 
+7 8 9 10 
+```
+>Time complexity = O(n)
+
+### Pattern 14
+>For n=4
+```
+A
+AB
+ABC
+ABCD
+```
+>Time complexity = O(n)
+
+### Pattern 15
+>For n=4
+```
+ABCD
+ABC
+AB
+A
+```
+>Time complexity = O(n)

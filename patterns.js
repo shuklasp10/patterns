@@ -110,6 +110,70 @@ function pattern10(n) {
     end();
 }
 
+function pattern11(n) {
+    console.log('Pattern 11');
+    for (let i = 1; i <= n; i++) {
+        let p = i % 2 == 0 ? 0 : 1;
+        for (let j = 0; j < i; j++) {
+            process.stdout.write(`${p}`);
+            p = p == 0 ? 1 : 0;
+        }
+        console.log();
+    }
+}
+
+function pattern12(n) {
+    console.log('Pattern 12');
+    let totalCol = 2 * n;
+    for (let i = 1; i <= n; i++) {
+        for (let j = 1; j <= i; j++) {
+            process.stdout.write(`${j}`);
+        }
+        process.stdout.write(' '.repeat(n - i) + ' '.repeat(n - i));
+        for (let j = i; j >= 1; j--) {
+            process.stdout.write(`${j}`);
+        }
+        console.log();
+    }
+    end();
+}
+
+function pattern13(n) {
+    console.log('Pattern 13');
+    let counter = 1
+    for (let i = 0; i < n; i++) {
+        for (let j = 0; j <= i; j++) {
+            process.stdout.write(`${counter++}` + ' ');
+        }
+        console.log();
+    }
+    end();
+}
+
+function pattern14(n) {
+    console.log('Pattern 14');
+    let code = 65;
+    for (let i = 0; i < n; i++) {
+        for (let j = 0; j <= i; j++) {
+            process.stdout.write(`${String.fromCharCode(code + j)}`);
+        }
+        console.log();
+    }
+    end();
+}
+
+function pattern15(n) {
+    console.log('Pattern 15');
+    let code = 65;
+    for (let i = n; i > 0; i--) {
+        for (let j = 0; j < i; j++) {
+            process.stdout.write(`${String.fromCharCode(code + j)}`);
+        }
+        console.log();
+    }
+    end();
+}
+
 // pattern1(3);
 // pattern2(5);
 // pattern3(5);
@@ -120,3 +184,8 @@ function pattern10(n) {
 // pattern8(4);
 // pattern9(3);
 // pattern10(3);
+// pattern11(4);
+// pattern12(4);
+// pattern13(4);
+// pattern14(4);
+// pattern15(4);

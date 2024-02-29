@@ -174,6 +174,15 @@ function pattern15(n) {
     end();
 }
 
+function pattern16(n){
+    console.log('Pattern 16');
+    let code = 65;
+    for(let i=0;i<n;i++){
+        console.log(String.fromCharCode(code+i).repeat(i+1));
+    }
+    end();
+}
+
 // pattern1(3);
 // pattern2(5);
 // pattern3(5);
@@ -189,3 +198,4 @@ function pattern15(n) {
 // pattern13(4);
 // pattern14(4);
 // pattern15(4);
+pattern16(4);

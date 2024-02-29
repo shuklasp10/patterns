@@ -150,3 +150,13 @@ AB
 A
 ```
 >Time complexity = O(n)
+
+### Pattern 16
+>For n=4
+```
+A
+BB
+CCC
+DDDD
+```
+>Time complexity = O(n)

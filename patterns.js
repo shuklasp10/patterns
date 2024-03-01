@@ -174,15 +174,26 @@ function pattern15(n) {
     end();
 }
 
-function pattern16(n){
+function pattern16(n) {
     console.log('Pattern 16');
     let code = 65;
-    for(let i=0;i<n;i++){
-        console.log(String.fromCharCode(code+i).repeat(i+1));
+    for (let i = 0; i < n; i++) {
+        console.log(String.fromCharCode(code + i).repeat(i + 1));
     }
     end();
 }
 
+function pattern18(n) {
+    console.log('Pattern 18');
+    let code = 65;
+    for (let i = 0; i < n; i++) {
+        for (let j = 0; j <= i; j++) {
+            process.stdout.write(String.fromCharCode(code + n - j - 1));
+        }
+        console.log();
+    }
+    end();
+}
 // pattern1(3);
 // pattern2(5);
 // pattern3(5);
@@ -198,4 +209,5 @@ function pattern16(n){
 // pattern13(4);
 // pattern14(4);
 // pattern15(4);
-pattern16(4);
+// pattern16(4);
+// pattern18(4);

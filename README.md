@@ -160,3 +160,69 @@ CCC
 DDDD
 ```
 >Time complexity = O(n)
+
+### Pattern 17
+>For n=4
+```
+    A
+  A B A
+A B C B A
+```
+>Time complexity = O(n)
+
+### Pattern 18
+>For n=4
+```
+D
+DC
+DCB
+DCBA
+```
+>Time complexity = O(n)
+
+### Pattern 19
+>For n=4
+```
+********
+***  ***
+**    **
+*      *
+```
+>Time complexity = O(n)
+
+### Pattern 20
+>For n=4
+```
+*      *
+**    **
+***  ***
+********
+***  ***
+**    **
+*      *
+```
+>Time complexity = O(n)
+
+### Pattern 21
+>For n=4
+```
+****
+*  *
+*  *
+****
+```
+>Time complexity = O(n)
+
+### Pattern 22
+>For n=4
+```
+44444444
+43333334
+43222234
+43211234
+43212344
+43222234
+43333334
+44444444
+```
+>Time complexity = O(n)

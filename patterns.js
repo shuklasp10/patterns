@@ -183,6 +183,12 @@ function pattern16(n) {
     end();
 }
 
+// function pattern17(n){
+//     console.log('Pattern 17');
+//     Add logic here
+//     end();
+// }
+
 function pattern18(n) {
     console.log('Pattern 18');
     let code = 65;
@@ -194,6 +200,46 @@ function pattern18(n) {
     }
     end();
 }
+
+function pattern19(n) {
+    console.log('Pattern 19');
+    for (let i = 0; i < n; i++) {
+        console.log('*'.repeat(n - i) + ' '.repeat(2 * i) + '*'.repeat(n - i));
+    }
+    end();
+}
+
+function pattern20(n) {
+    console.log('Pattern 20');
+    for (let i = 1; i <= n; i++) {
+        console.log('*'.repeat(i) + ' '.repeat(2 * (n - i)) + '*'.repeat(i));
+    }
+    for (let i = 1; i <= n; i++) {
+        console.log('*'.repeat(n - i) + ' '.repeat(2 * i) + '*'.repeat(n - i));
+    }
+    end();
+}
+
+function pattern21(n) {
+    console.log('Pattern 21');
+    for (let i = 0; i < n; i++) {
+        if (i == 0 || i == n - 1) {
+            console.log('*'.repeat(n));
+        }
+        else {
+            console.log('*' + ' '.repeat(n - 2) + '*');
+        }
+    }
+    end();
+}
+
+// function pattern22(n) {
+//     console.log('Pattern 22');
+//     for (let i = 0; i < n; i++) {
+//     }
+//     end();
+// }
+
 // pattern1(3);
 // pattern2(5);
 // pattern3(5);
@@ -210,4 +256,9 @@ function pattern18(n) {
 // pattern14(4);
 // pattern15(4);
 // pattern16(4);
+// // pattern17(4);
 // pattern18(4);
+// pattern19(4);
+// pattern20(4);
+// pattern21(4);
+// pattern22(4);
